@@ -16,4 +16,4 @@ The input file for the program should follow the following format:
 
 The program reads this input and writes the output to the standard output. The output consists of a single integer representing the maximum comercial trade value of the given input graph (with the optimal infrastructure cost).
 ## Implementation
-TO FINISH (also, check Problem Description for any typos)
+The project was prefered be implemented in C++ or C. Submissions in Java/Python were also allowed but not recommended due to potential performance issues.
