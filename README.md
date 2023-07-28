@@ -6,7 +6,13 @@ In this project it is assumed that each link has the same infrastructure cost an
 ## Input and Output
 The input file for the program should follow the following format:
 
-ADD INPUT FORMAT
+```
+<V>      // Number of vertices, V >= 1
+<E>      // Number of edges (links), E >= 0
+// Followed by E lines of the following format:
+<u v w>  // Edge, u and v are some vertices and w the weight of the edge
+// The identifier of a vertice is an integer between 1 and V
+```
 
 The program reads this input and writes the output to the standard output. The output consists of a single integer representing the maximum comercial trade value of the given input graph (with the optimal infrastructure cost).
 ## Implementation
